@@ -1,0 +1,61 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.5.2 Chrome/142.0.7444.265 Electron/39.6.1 Safari/537.36" version="29.5.2">
+  <diagram name="Page-1" id="QHlSEn60ck7UYg2HTTh0">
+    <mxGraphModel dx="2253" dy="961" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="too920bd7l44-WtgF7VY-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fillColor=#e1d5e7;strokeColor=#9673a6;" value="Industrial Edge Management" vertex="1">
+          <mxGeometry height="230" width="273.5" x="-703.5" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="too920bd7l44-WtgF7VY-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" value="LTE" vertex="1">
+          <mxGeometry height="440" width="190" x="140" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="too920bd7l44-WtgF7VY-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Industrial Edge Device - Child" vertex="1">
+          <mxGeometry height="230" width="510" x="-390" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="too920bd7l44-WtgF7VY-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Industrial Edge Device - Parent" vertex="1">
+          <mxGeometry height="230" width="440" x="360" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="too920bd7l44-WtgF7VY-7" edge="1" parent="1" source="too920bd7l44-WtgF7VY-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="too920bd7l44-WtgF7VY-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="too920bd7l44-WtgF7VY-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="PLC" vertex="1">
+          <mxGeometry height="60" width="120" x="-190" y="555" as="geometry" />
+        </mxCell>
+        <mxCell id="too920bd7l44-WtgF7VY-11" edge="1" parent="1" source="too920bd7l44-WtgF7VY-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="too920bd7l44-WtgF7VY-9" value="MQTT">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="too920bd7l44-WtgF7VY-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="S7 Connector" vertex="1">
+          <mxGeometry height="60" width="120" x="-190" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="too920bd7l44-WtgF7VY-6" edge="1" parent="1" source="too920bd7l44-WtgF7VY-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="too920bd7l44-WtgF7VY-4" value="configure">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="too920bd7l44-WtgF7VY-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Common Configurator" vertex="1">
+          <mxGeometry height="60" width="120" x="-670" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="too920bd7l44-WtgF7VY-19" edge="1" parent="1" source="too920bd7l44-WtgF7VY-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="too920bd7l44-WtgF7VY-13" value="SparkPlug B">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="too920bd7l44-WtgF7VY-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Flow Creator" vertex="1">
+          <mxGeometry height="60" width="120" x="-20" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="too920bd7l44-WtgF7VY-10" edge="1" parent="1" source="too920bd7l44-WtgF7VY-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="too920bd7l44-WtgF7VY-8" value="MQTT">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="too920bd7l44-WtgF7VY-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Databus" vertex="1">
+          <mxGeometry height="60" width="120" x="-190" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="too920bd7l44-WtgF7VY-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Flow Creator" vertex="1">
+          <mxGeometry height="60" width="120" x="570" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="too920bd7l44-WtgF7VY-18" edge="1" parent="1" source="too920bd7l44-WtgF7VY-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="too920bd7l44-WtgF7VY-12" value="MQTT">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="too920bd7l44-WtgF7VY-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Databus" vertex="1">
+          <mxGeometry height="60" width="120" x="400" y="300" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
